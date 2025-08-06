@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#FFFFFF
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-bg {
+  background-color: #ffffff00;
+} 
+
+.text-color {
+  color: #000;;
+}
+
+.border-color {
+  border-color: #25493F;
+}
+
+.custom-bg-text {
+  color:#149112;
+}
+
+.bg-color {
+  background-color: #d8dacd34;
+}
+
+.rounded-card {
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.form-card {
+  padding: .2em .2em .2em;
+  border-radius: 1em;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .product-card  {
+  transform: scale(1.02);
+}
+
+.home-services {
+  font-weight: 800;
+  color: #5be0e7;
+  text-align: center;
+  margin: 5px auto 30px auto;
+}
+
+.phegon-color {
+  color: #FF007F;
+  color: #FF7F50;
+}
+
+.service-section {
+  margin: 0px 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1 1 45%;
+  /* Two cards on one row, adjust width as needed */
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+}
+
+.service-card img {
+  width: 50px;
+  /* Adjust size of icon */
+  margin-right: 10px;
+}
+
+.service-details {
+  flex: 1;
+}
+
+.service-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  color: #007F86;
+}
+
+.service-description {
+  color: #444;
+}
+
+
+
+
+
